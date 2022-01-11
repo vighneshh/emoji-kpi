@@ -1,0 +1,15 @@
+{
+	"name": "Emoji KPI",
+	"description": "Simple Emoji KPI with custom style",
+	"type": "visualization",
+	"version": "1.0.0",
+	"icon": "kpi",
+	"author": "vighnesh gawad",
+	"homepage": "",
+	"keywords": "qlik-sense, visualization",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}

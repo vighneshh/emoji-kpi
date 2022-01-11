@@ -1,0 +1,80 @@
+/* CSS */
+
+.primary{
+ 	font-weight: 700;
+ 	font-size: 15px;
+ }
+ .tile-box, .bs-badge, .tile-header, .tile-content-wrapper {
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+ }
+ .tile-box {
+ 	border-radius: 3px;
+ 	line-height: inherit;
+ 	display: block;
+ 	position: relative;
+	height: 99%;
+ }
+ .tile-box-shortcut .bs-badge {
+ 	position: absolute;
+ 	right:  auto;
+ 	left:  10px;
+ 	bottom:  10px;
+ 	background: rgba(0, 0, 0, .5);
+ }
+  .tile-box-shortcut .tile-header {
+ 	background: 0 0;
+ 	padding: 5px;
+ 	position: absolute;
+ 	left: 10px;
+ 	top: : 10px;
+ 	font-weight: 400;
+ }
+ .badge, .bs-badge {
+ 	display: inline-block;
+ 	min-width: 20px;
+ 	padding: 5px 5px;
+ 	text-align: center;
+ 	vertical-align: baseline;
+ 	white-space: nowrap;
+ 	color: #fff;
+ 	font-size: 20px;
+ 	border-radius: 10px;
+ }
+ .tile-header {
+ 	font-size: 12px;
+ 	padding: 5px 10px;
+ 	text-align: left;
+ 	text-transform: capitalize;
+ 	border: 0!important;
+ 	background: rgba(255, 255, 255, .2);
+ }
+ .tile-box-shortcut .tile-content-wrapper {
+ 	padding: 0;
+ 	min-height: 130px;
+ }
+ .tile-content-wrapper {
+ 	position: relative;
+ 	overflow: hidden;
+ 	padding: 10px;
+ }
+ .tile-box-shortcut .tile-content-wrapper>.icon {
+ 	position: absolute;
+ 	right:  15px;
+ 	
+ }
+ .icon {
+ 	text-align: center;
+ }
+ .tile-content-wrapper>.icon {
+ 	font-size: 70px;
+ 	line-height: 70px;
+ 	position: absolute;
+ 	top: 50%;
+ 	right:  15px;
+ 	height: 70px;
+ 	margin-top: -36px;
+ 	opacity: .7;
+ 	-moz-opacity: .7;
+ }
